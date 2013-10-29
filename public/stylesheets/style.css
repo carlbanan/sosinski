@@ -53,3 +53,36 @@ html, body {
 	background: yellow;
 	height: 200px;
 	}
+
+
+.second_section{
+	background: #f1f1f1;
+	height: 470px;
+	padding-top: 50px;
+}
+
+.how{
+	height: 100px;
+	background: red;
+}	
+
+.one{
+	background: orange;
+}
+
+.two{
+	background: purple;
+}
+
+.three{
+	background: beige;
+}
+
+.four{
+	background: brown;
+}
+
+.third_section{
+	height: 600px;
+	background: black;
+}
