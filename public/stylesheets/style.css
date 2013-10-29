@@ -1,4 +1,5 @@
-html, body {
+html, body, .col-xs-6 {
+	padding:0;
 	height: 100%;
 }
 
@@ -57,29 +58,49 @@ html, body {
 
 .second_section{
 	background: #1772b0;
-	height: 470px;
 	padding-top: 50px;
 }
 
 .how{
-	height: 100px;
-	background: red;
-}	
+	height: 300px;
+}
+
+h1.title{
+	text-align: center;
+	margin-bottom: 60px;
+	color: white;
+}
+
+.second{
+
+}
 
 .one{
-	background: orange;
+	border-radius: 5px;
+	height: 187px;
+	background: #00629d;
+	margin-right: 30px;	
 }
 
 .two{
-	background: purple;
+	border-radius: 5px;
+	height: 187px;
+	background: #00629d;
+	margin-left: 30px;
 }
 
 .three{
-	background: beige;
+	border-radius: 5px;
+	height: 187px;
+	background: #00629d;
+	margin-right: 30px;
 }
 
 .four{
-	background: brown;
+	border-radius: 5px;
+	height: 187px;
+	background: #00629d;
+	margin-left: 30px;
 }
 
 .third_section{
