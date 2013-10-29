@@ -39,12 +39,17 @@ html, body {
 	background: blue;
 }
 
+.first_section{
+	background: gray;
+	height: 470px;
+}
+
 .left{
 	background: pink;
-	height: 500px;
+	height: 200px;
 }
 
 .right{ 
 	background: yellow;
-	height: 500px;
+	height: 200px;
 	}
