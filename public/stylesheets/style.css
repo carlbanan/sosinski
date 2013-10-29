@@ -2,11 +2,23 @@ html, body, .col-xs-6 {
 	padding:0;
 	height: 100%;
 	-webkit-font-smoothing: antialiased;
+	font-family: 'Open Sans', sans-serif;
 }
+
+p, h1, h2, h3, h4, a{
+	font-family: 'Open Sans', sans-serif;
+}
+
+	h1{
+		font-weight: 800;
+		line-height: 1.3em;
+		font-size: 32px;
+	}
 
 .index-wrapper {
 	height: 700px;
 	top:0;
+	min-width: 700px!important;
 	width: 100%;
 	display: table;
 	overflow: hidden;
@@ -37,6 +49,7 @@ html, body, .col-xs-6 {
 
 h1.top{
 	color:white;
+	margin: 40px 0;
 }
 
 
@@ -110,12 +123,11 @@ iframe{
 }
 
 .logo{
-	background-image:url() repeat-none;
-	background-color: blue;
-	text-align: center;
-	margin: 0 auto;
-	width:60px;
-	height:60px;
+	background-image:url('/public/images/logo.png');
+	background-repeat:no-repeat;
+	background-position: center center; 
+	height: 60px;
+
 }
 
 .first_section{
