@@ -52,8 +52,8 @@ p, h1, h2, h3, h4, h5 a{
 }
 
 .container{
-	padding-right: 15px;
-	padding-left: 15px;
+	padding-right: 25px;
+	padding-left: 25px;
 	max-width: 900px;
 	
 }
@@ -308,8 +308,8 @@ p.round{
 }
 
 .container.fourth{
-	padding-left:30px;
-	padding-right:30px;
+	padding-left:40px;
+	padding-right:40px;
 }
 
 
