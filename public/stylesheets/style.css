@@ -9,7 +9,7 @@ h1{
 	margin-top: 0;
 }
 
-p, h1, h2, h3, h4, a{
+p, h1, h2, h3, h4, h5 a{
 	font-family: 'Open Sans', sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
@@ -53,8 +53,8 @@ p, h1, h2, h3, h4, a{
 
 .container{
 	max-width: 760px;
-	padding-right: 20px;
-	padding-left: 20px;
+	padding-right: 25px;
+	padding-left: 25px;
 	
 }
 
@@ -300,18 +300,29 @@ p.round{
 
 .fourth_section{
 	background: #1772b0;
-	height: 300px;
+	height: 340px;
 	text-align: left;
-	padding-top: 50px;
+	padding-top: 90px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 
+
 h5{
-	font-size: 14px;
+	font-size: 13px;
 	text-transform: uppercase;
-	line-height: 0;
-	font-weight: normal;
+	line-height: 0em;
+	font-weight: 700;
 	color:white;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p.terms{
+	color:white;
+	font-size: 13px;
+	line-height: 1.6em;
 }
 
 .sosinski{
@@ -322,13 +333,6 @@ h5{
 	right: 0;
 	padding-right: 0px;
 
-}
-
-.logo{
-	background-image:url('/public/images/logo.png');
-	background-repeat:no-repeat;
-	background-position: center center; 
-	height: 60px;
 }
 
 
