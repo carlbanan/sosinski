@@ -1,18 +1,45 @@
-html, body, .col-xs-6 {
+html, body, .col-xs-6,{
 	padding:0;
 	height: 100%;
 	-webkit-font-smoothing: antialiased;
 	font-family: 'Open Sans', sans-serif;
 }
 
+h1{
+	margin-top: 0;
+}
+
 p, h1, h2, h3, h4, a{
 	font-family: 'Open Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 
 	h1{
 		font-weight: 800;
-		line-height: 1.3em;
+		color: #222;
 		font-size: 32px;
+	}
+
+	h3{
+		color: #666666;
+		font-size: 19px;
+		font-weight: 400;
+		line-height: 1.625em;
+		display: block;
+		-webkit-margin-before: 1.7em;
+		-webkit-margin-after: 0em;
+		-webkit-margin-start: 0px;
+		-webkit-margin-end: 60px;
+	}
+
+	h4{
+		color: white;
+		font-size: 16px;
+		line-height: 1.35em;
+		-webkit-margin-before: 1em;
+		-webkit-margin-after: 0em;
+		-webkit-margin-start: 0px;
+		-webkit-margin-end: 10px;
 	}
 
 .index-wrapper {
@@ -26,6 +53,8 @@ p, h1, h2, h3, h4, a{
 
 .container{
 	max-width: 760px;
+	padding-right: 20px;
+	padding-left: 20px;
 	
 }
 
@@ -49,6 +78,7 @@ p, h1, h2, h3, h4, a{
 h1.top{
 	color:white;
 	margin: 40px 0;
+	line-height: 1.3em;
 }
 
 
@@ -110,7 +140,7 @@ border-bottom-color: #389b34;
 border-left-color: #3aa236;
 }
 
-iframe{
+.index-wrapper iframe{
 	position: absolute;
 	left:-20%;
 	opacity: 0.2;
@@ -123,32 +153,63 @@ iframe{
 	background-repeat:no-repeat;
 	background-position: center center; 
 	height: 60px;
-
 }
 
-.first_section{
+
+.first_section{	
+	height: 490px;
 	background: #f1f6fa;
-	height: 470px;
 }
 
 .left{
-	background: blue;
-	height: 200px;
+	height: 490px;
+	top: 50%;
+	display: table;
+	overflow: hidden;
 }
 
+.awesomeness{
+		vertical-align: middle;
+		text-align: left;
+		display: table-cell;
+	}
+
+
 .right{ 
-	background: yellow;
-	height: 200px;
+	height: 470px;
+	}
+
+.blue-bottom{
+	width: 350px;
+	height: 70px;
+	right:0;
+	bottom: -90px;
+	background: #1772b0;
+	position: absolute;
+	}
+
+.right iframe{
+	margin-top: 50px;
+	float:right;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	display: block;
+	background-position: absolute;
 	}
 
 
 .second_section{
 	background: #1772b0;
-	padding-top: 50px;
+	padding-top: 110px;
+	padding-bottom: 60px;
 }
 
 .how{
-	height: 300px;
+	height: 320px;
 }
 
 h1.title{
@@ -158,57 +219,83 @@ h1.title{
 }
 
 .r{
-	margin-left: 20px;
+	margin-left: 5px;
 }
 
-.second{
-
-}
 
 p.round{
-	width: 46px;
-	height: 46px;
+	width: 44px;
+	height: 44px;
 	border-radius: 46px;
 	background: #00629d;
-	padding: 7px 17px ;
+	padding: 5.9px 16.1px ;
 	display: inline-block;
 	float: left;
 	margin-top: 15px;
-	margin-right: 10px;
+	margin-right: 15px;
 	font-size: 21px;
+	font-weight: 700;
+	color:white;
 }
 
 .one{
 	border-radius: 5px;
 	height: 187px;
 	background: #00629d;
-	margin-right: 20px;	
+	margin-right: 5px;	
 }
 
 .two{
 	border-radius: 5px;
 	height: 187px;
 	background: #00629d;
-	margin-left: 20px;
+	margin-left: 5px;
 }
 
 .three{
 	border-radius: 5px;
 	height: 187px;
 	background: #00629d;
-	margin-right: 20px;
+	margin-right: 5px;
 }
 
 .four{
 	border-radius: 5px;
 	height: 187px;
 	background: #00629d;
-	margin-left: 20px;
+	margin-left: 5px;
 }
 
 .third_section{
-	height: 600px;
+	height: 520px;
 	background: #f1f6fa;
+}
+
+.container.third{
+	padding-right: 0px;
+}
+
+.whatis{
+		vertical-align: middle;
+		text-align: left;
+		display: table-cell;
+	}
+
+.whatis p{
+	font-size: 16px;
+	line-height: 1.6em;
+	font-weight: 400;
+	-webkit-margin-before: 1.8em;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 10px;
+	color: #666666;
+}
+
+.left.what,
+.right.what{
+	height: 520px;
+	padding-right:0;
 }
 
 .fourth_section{
@@ -218,6 +305,7 @@ p.round{
 	padding-top: 50px;
 }
 
+
 h5{
 	font-size: 14px;
 	text-transform: uppercase;
@@ -226,6 +314,21 @@ h5{
 	color:white;
 }
 
-p{
-	color: white;
+.sosinski{
+	background-image:url('/public/images/sosinski.png');
+	background-repeat:no-repeat;
+	background-position: center right; 
+	height: 100%;
+	right: 0;
+	padding-right: 0px;
+
 }
+
+.logo{
+	background-image:url('/public/images/logo.png');
+	background-repeat:no-repeat;
+	background-position: center center; 
+	height: 60px;
+}
+
+
