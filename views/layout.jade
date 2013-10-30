@@ -1,9 +1,21 @@
 doctype 5
 html
-  head
-    title= title
-    link(rel='stylesheet', href='/bower/bootstrap/dist/css/bootstrap.css')
-    link(rel='stylesheet', href='/public/stylesheets/style.css')
-    link(href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800', rel='stylesheet', type='text/css')
-  body
-   block content
+	head
+		title= title
+		link(rel='stylesheet', href='/bower/bootstrap/dist/css/bootstrap.css')
+		link(rel='stylesheet', href='/public/stylesheets/style.css')
+		link(href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800', rel='stylesheet', type='text/css')
+	body
+		block content
+		script(src='/bower/jquery/jquery.js')
+		script
+			$(document).ready(function (){
+				console.log('start')
+					$(".btn").click(function (){
+						//$(this).animate(function(){
+							$('html, body').animate({
+								scrollTop: $(".second_section").offset().top
+							}, 800);
+						//});
+					});
+				}); 
