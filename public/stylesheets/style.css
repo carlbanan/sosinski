@@ -148,6 +148,15 @@ border-left-color: #3aa236;
 	
 }
 
+.index-wrapper .turnable{
+	position: absolute;
+	left:-20%;
+	opacity: 0.2;
+	-webkit-filter: grayscale(70%); 
+	
+}
+
+
 .logo{
 	background-image:url('/public/images/logo.png');
 	background-repeat:no-repeat;

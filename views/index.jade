@@ -2,7 +2,15 @@ extends layout
 
 block content
 	.index-wrapper
-		<iframe src="http://embed.sosinski.se/?image_url=http://showroom.sosinski.se/images/b1fab752b7f5bca623599774ccd0dacd_-01.jpg&frames=16&nospin=true?innerframe=true" width="1050" height="700" align="middle"frameborder="0"></iframe>
+		<img id="turnable-1" src="/public/images/demo-images/puma-01.jpg" data-turnable-options='{"frames": 19}' />
+		script(src='/public/javascripts/turnable-1.4.1.jquery.min.js')
+		script
+			$(window).load(function() {
+				console.log('sos')
+				$("#turnable-1").turnable();
+			});
+
+
 		.background
 		#top-content
 			.logo

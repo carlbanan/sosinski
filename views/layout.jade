@@ -4,10 +4,13 @@ html
 		title= title
 		link(rel='stylesheet', href='/bower/bootstrap/dist/css/bootstrap.css')
 		link(rel='stylesheet', href='/public/stylesheets/style.css')
+		link(rel='stylesheet', href='/public/stylesheets/turnable-1.4.1.css')
 		link(href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800', rel='stylesheet', type='text/css')
+		script(src='/public/javascripts/jquery-1.9.1.min.js')
+		script(type='text/javascript', src='/public/javascripts/turnable-1.4.1.jquery.min.js')
+
 	body
 		block content
-		script(src='/bower/jquery/jquery.js')
 		script
 			$(document).ready(function (){
 				console.log('start')
@@ -18,4 +21,4 @@ html
 							}, 800);
 						//});
 					});
-				}); 
+				}); 	
