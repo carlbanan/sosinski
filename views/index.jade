@@ -1,15 +1,13 @@
 extends layout
 
 block content
-	.index-wrapper
-		<img id="turnable-1" src="/public/images/demo-images/puma-01.jpg" data-turnable-options='{"frames": 19}' />
+	.index-wrapper.none
+		<img class="turnable-1" src="/public/images/studio/-01.jpg" data-turnable-options='{"frames": 16}'/>
 		script(src='/public/javascripts/turnable-1.4.1.jquery.min.js')
 		script
 			$(window).load(function() {
-				console.log('sos')
-				$("#turnable-1").turnable();
-			});
-
+				$("img.turnable-1").turnable();
+			});		
 
 		.background
 		#top-content
@@ -26,7 +24,7 @@ block content
 					h3 The winner of #tictail360 will be able to enhance their store with beautiful product images that spin with the click of a mouse or swipe of a finger for one full year.
 			.col-xs-6.right
 				.blue-bottom
-				<iframe src="http://embed.sosinski.se/?image_url=http://showroom.sosinski.se/images/94c33cb7166c775a1ba16b6256bcb4fd_-01.jpg&frames=19&nospin=true?innerframe=true" width="333.3332" height="500" frameborder="0"></iframe>
+				<iframe src="http://embed.sosinski.se/?image_url=http://showroom.sosinski.se/images/94c33cb7166c775a1ba16b6256bcb4fd_-01.jpg&frames=19&nospin=true&showSpinButton=true" width="333.3332" height="500" frameborder="0"></iframe>
 	
 	.second_section
 		.container.second
@@ -44,7 +42,39 @@ block content
 				p.round 3
 				h4 Get your friends and family to share the photo!
 			.col-xs-6.how
-				.four
+				.four.none
+		
+					<img id="watch" src="/public/images/watch/-01.jpg" />
+					script
+						$("#watch").turnable({
+							images: [
+								"/public/images/watch/-01.jpg",
+								"/public/images/watch/-02.jpg",
+								"/public/images/watch/-03.jpg",
+								"/public/images/watch/-04.jpg",
+								"/public/images/watch/-05.jpg",
+								"/public/images/watch/-06.jpg",
+								"/public/images/watch/-07.jpg",
+								"/public/images/watch/-08.jpg",
+								"/public/images/watch/-09.jpg",
+								"/public/images/watch/-10.jpg",
+								"/public/images/watch/-11.jpg",
+								"/public/images/watch/-12.jpg",
+								"/public/images/watch/-13.jpg",
+								"/public/images/watch/-14.jpg",
+								"/public/images/watch/-15.jpg",
+								"/public/images/watch/-16.jpg",
+								"/public/images/watch/-17.jpg",
+								"/public/images/watch/-18.jpg",
+								"/public/images/watch/-19.jpg"
+							]
+						});
+					<!--<img id="watch" src="/public/images/watch/-01.jpg" data-turnable-options='{"frames": 19}' />
+					script(src='/public/javascripts/turnable-1.4.1.jquery.min.js')
+					script
+						$(window).load(function() {
+							$("img#watch").turnable();
+						});	-->
 				p.round.r 4
 				h4 The store with the most photo shares wins!!	
 
