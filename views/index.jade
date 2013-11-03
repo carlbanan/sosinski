@@ -24,7 +24,33 @@ block content
 					h3 The winner of #tictail360 will be able to enhance their store with beautiful product images that spin with the click of a mouse or swipe of a finger for one full year.
 			.col-xs-6.right
 				.blue-bottom
-				<iframe src="http://embed.sosinski.se/?image_url=http://showroom.sosinski.se/images/94c33cb7166c775a1ba16b6256bcb4fd_-01.jpg&frames=19&nospin=true&showSpinButton=true" width="333.3332" height="500" frameborder="0"></iframe>
+				.ahlens
+					<img id="ahlens" src="/public/images/ahlens/-01.jpg" />
+					script
+						$("#ahlens").turnable({
+							images: [
+								"/public/images/ahlens/-01.jpg",
+								"/public/images/ahlens/-02.jpg",
+								"/public/images/ahlens/-03.jpg",
+								"/public/images/ahlens/-04.jpg",
+								"/public/images/ahlens/-05.jpg",
+								"/public/images/ahlens/-06.jpg",
+								"/public/images/ahlens/-07.jpg",
+								"/public/images/ahlens/-08.jpg",
+								"/public/images/ahlens/-09.jpg",
+								"/public/images/ahlens/-10.jpg",
+								"/public/images/ahlens/-11.jpg",
+								"/public/images/ahlens/-12.jpg",
+								"/public/images/ahlens/-13.jpg",
+								"/public/images/ahlens/-14.jpg",
+								"/public/images/ahlens/-15.jpg",
+								"/public/images/ahlens/-16.jpg",
+								"/public/images/ahlens/-17.jpg",
+								"/public/images/ahlens/-18.jpg",
+								"/public/images/ahlens/-19.jpg"
+							]
+						});	
+						
 	
 	.second_section
 		.container.second
@@ -43,7 +69,7 @@ block content
 				h4 Get your friends and family to share the photo!
 			.col-xs-6.how
 				.four.none
-		
+
 					<img id="watch" src="/public/images/watch/-01.jpg" />
 					script
 						$("#watch").turnable({

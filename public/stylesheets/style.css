@@ -70,11 +70,14 @@ p, h1, h2, h3, h4, h5 a{
 	display:none;
 }
 
-.none .turnable-instruction
-{
+.none .turnable-instruction{
 	display: none!important;
 } 
 
+.ahlens .turnable-instruction{
+	width: 415px!important;
+	height: 523px!important;
+}
 
 .background{
 	width: 100%;
@@ -192,25 +195,25 @@ border-left-color: #3aa236;
 	}
 
 .blue-bottom{
-	width: 350px;
-	height: 70px;
-	right:0;
-	bottom: -90px;
+	width: 370px;
+	height: 80px;
+	right: 0;
+	bottom: -100px;
 	background: #1772b0;
 	position: absolute;
+	z-index: 9999;
 	}
 
-.right iframe{
-	margin-top: 50px;
-	float:right;
-	-webkit-border-top-left-radius: 4px;
-	-webkit-border-top-right-radius: 4px;
-	-moz-border-radius-topleft: 4px;
-	-moz-border-radius-topright: 4px;
-	border-top-left-radius: 4px;
-	border-top-right-radius: 4px;
+
+
+
+#ahlens{
+	width: 90%;
+	margin-top: 40px;
+	border-radius: 4px;
 	display: block;
-	background-position: absolute;
+	position: absolute;
+	right:-15px;
 	}
 
 
@@ -283,7 +286,8 @@ p.round{
 	width: 105%;
 	text-align: center;
 	margin: auto;
-	margin-top:-28px;
+	margin-top: -50px;
+	margin-left: 0px;
 	border-radius: 4px;
 	
 }
