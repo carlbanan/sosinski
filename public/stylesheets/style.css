@@ -66,10 +66,11 @@ p, h1, h2, h3, h4, h5 a{
 	-webkit-filter: grayscale(70%); 
 }
 
+/*
 .turnable-instruction{
 	margin-left: 33px;
 }
-
+*/
 .background{
 	width: 100%;
 	height: 700px;
@@ -180,11 +181,20 @@ border-left-color: #3aa236;
 		display: table-cell;
 	}
 
-
-.right{ 
-	height: 470px;
-	}
-
+.ahlens{
+	height: 450px;
+	width: 346px;
+	margin-top:40px;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	overflow: hidden;
+	float:right;
+}	
+/*
 .blue-bottom{
 	width: 500px;
 	height: 80px;
@@ -194,17 +204,17 @@ border-left-color: #3aa236;
 	position: absolute;
 	z-index: 9999;
 	}
-
-
+*/
 
 
 #ahlens{
-	width: 90%;
-	margin-top: 40px;
-	border-radius: 4px;
-	display: block;
-	position: absolute;
-	right:-15px;
+	width: 100%;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
 	}
 
 
