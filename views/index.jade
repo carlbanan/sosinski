@@ -3,7 +3,6 @@ extends layout
 block content
 	.index-wrapper.none
 		<img class="turnable-1" src="/public/images/studio/-01.jpg" data-turnable-options='{"frames": 16}'/>
-		script(src='/public/javascripts/turnable-1.4.1.jquery.min.js')
 		script
 			$(window).load(function() {
 				$("img.turnable-1").turnable();
@@ -27,6 +26,7 @@ block content
 				.ahlens
 					<img id="ahlens" src="/public/images/ahlens/-01.jpg" />
 					script
+						$(window).bind("load", function() {
 						$("#ahlens").turnable({
 							images: [
 								"/public/images/ahlens/-01.jpg",
@@ -50,7 +50,7 @@ block content
 								"/public/images/ahlens/-19.jpg"
 							]
 						});	
-						
+						});
 	
 	.second_section
 		.container.second
@@ -72,6 +72,7 @@ block content
 
 					<img id="watch" src="/public/images/watch/-01.jpg" />
 					script
+						$(window).bind("load", function() {
 						$("#watch").turnable({
 							images: [
 								"/public/images/watch/-01.jpg",
@@ -94,6 +95,7 @@ block content
 								"/public/images/watch/-18.jpg",
 								"/public/images/watch/-19.jpg"
 							]
+						});
 						});
 					<!--<img id="watch" src="/public/images/watch/-01.jpg" data-turnable-options='{"frames": 19}' />
 					script(src='/public/javascripts/turnable-1.4.1.jquery.min.js')
