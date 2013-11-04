@@ -1,0 +1,230 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'rebuild' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.21
+4 info readInstalled object
+5 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski',
+5 verbose rebuild   'application-name@0.0.1' ]
+6 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/express',
+6 verbose rebuild   'express@3.4.3' ]
+7 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/connect',
+7 verbose rebuild   'connect@2.10.1' ]
+8 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/connect/node_modules/qs',
+8 verbose rebuild   'qs@0.6.5' ]
+9 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/cookie-signature',
+9 verbose rebuild   'cookie-signature@1.0.1' ]
+10 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/buffer-crc32',
+10 verbose rebuild   'buffer-crc32@0.2.1' ]
+11 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/cookie',
+11 verbose rebuild   'cookie@0.1.0' ]
+12 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/send',
+12 verbose rebuild   'send@0.1.4' ]
+13 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/debug',
+13 verbose rebuild   'debug@0.7.2' ]
+14 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/send/node_modules/mime',
+14 verbose rebuild   'mime@1.2.11' ]
+15 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/fresh',
+15 verbose rebuild   'fresh@0.2.0' ]
+16 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/range-parser',
+16 verbose rebuild   'range-parser@0.0.4' ]
+17 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/connect/node_modules/bytes',
+17 verbose rebuild   'bytes@0.2.0' ]
+18 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/connect/node_modules/pause',
+18 verbose rebuild   'pause@0.0.1' ]
+19 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/connect/node_modules/uid2',
+19 verbose rebuild   'uid2@0.0.2' ]
+20 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/methods',
+20 verbose rebuild   'methods@0.0.1' ]
+21 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/connect/node_modules/raw-body',
+21 verbose rebuild   'raw-body@0.0.3' ]
+22 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/connect/node_modules/negotiator',
+22 verbose rebuild   'negotiator@0.2.8' ]
+23 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/connect/node_modules/multiparty',
+23 verbose rebuild   'multiparty@2.2.0' ]
+24 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/connect/node_modules/multiparty/node_modules/readable-stream',
+24 verbose rebuild   'readable-stream@1.1.9' ]
+25 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/connect/node_modules/multiparty/node_modules/readable-stream/node_modules/core-util-is',
+25 verbose rebuild   'core-util-is@1.0.0' ]
+26 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/connect/node_modules/multiparty/node_modules/readable-stream/node_modules/debuglog',
+26 verbose rebuild   'debuglog@0.0.2' ]
+27 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/connect/node_modules/multiparty/node_modules/stream-counter',
+27 verbose rebuild   'stream-counter@0.2.0' ]
+28 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/commander',
+28 verbose rebuild   'commander@1.3.2' ]
+29 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/commander/node_modules/keypress',
+29 verbose rebuild   'keypress@0.1.0' ]
+30 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/mkdirp',
+30 verbose rebuild   'mkdirp@0.3.5' ]
+31 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade',
+31 verbose rebuild   'jade@0.35.0' ]
+32 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/commander',
+32 verbose rebuild   'commander@2.0.0' ]
+33 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/mkdirp',
+33 verbose rebuild   'mkdirp@0.3.5' ]
+34 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/transformers',
+34 verbose rebuild   'transformers@2.1.0' ]
+35 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/transformers/node_modules/promise',
+35 verbose rebuild   'promise@2.0.0' ]
+36 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/is-promise',
+36 verbose rebuild   'is-promise@1.0.0' ]
+37 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/transformers/node_modules/css',
+37 verbose rebuild   'css@1.0.8' ]
+38 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-parse',
+38 verbose rebuild   'css-parse@1.0.4' ]
+39 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-stringify',
+39 verbose rebuild   'css-stringify@1.0.5' ]
+40 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/transformers/node_modules/uglify-js',
+40 verbose rebuild   'uglify-js@2.2.5' ]
+41 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map',
+41 verbose rebuild   'source-map@0.1.30' ]
+42 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine',
+42 verbose rebuild   'amdefine@0.1.0' ]
+43 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist',
+43 verbose rebuild   'optimist@0.3.7' ]
+44 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap',
+44 verbose rebuild   'wordwrap@0.0.2' ]
+45 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/character-parser',
+45 verbose rebuild   'character-parser@1.2.0' ]
+46 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/monocle',
+46 verbose rebuild   'monocle@1.1.50' ]
+47 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/monocle/node_modules/readdirp',
+47 verbose rebuild   'readdirp@0.2.5' ]
+48 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/monocle/node_modules/readdirp/node_modules/minimatch',
+48 verbose rebuild   'minimatch@0.2.12' ]
+49 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/monocle/node_modules/readdirp/node_modules/minimatch/node_modules/lru-cache',
+49 verbose rebuild   'lru-cache@2.3.1' ]
+50 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/monocle/node_modules/readdirp/node_modules/minimatch/node_modules/sigmund',
+50 verbose rebuild   'sigmund@1.0.0' ]
+51 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/with',
+51 verbose rebuild   'with@1.1.1' ]
+52 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/with/node_modules/uglify-js',
+52 verbose rebuild   'uglify-js@2.4.0' ]
+53 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/async',
+53 verbose rebuild   'async@0.2.9' ]
+54 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/source-map',
+54 verbose rebuild   'source-map@0.1.30' ]
+55 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine',
+55 verbose rebuild   'amdefine@0.1.0' ]
+56 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/optimist',
+56 verbose rebuild   'optimist@0.3.7' ]
+57 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap',
+57 verbose rebuild   'wordwrap@0.0.2' ]
+58 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/uglify-to-browserify',
+58 verbose rebuild   'uglify-to-browserify@1.0.1' ]
+59 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/constantinople',
+59 verbose rebuild   'constantinople@1.0.2' ]
+60 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/constantinople/node_modules/uglify-js',
+60 verbose rebuild   'uglify-js@2.4.1' ]
+61 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/async',
+61 verbose rebuild   'async@0.2.9' ]
+62 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/source-map',
+62 verbose rebuild   'source-map@0.1.30' ]
+63 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine',
+63 verbose rebuild   'amdefine@0.1.0' ]
+64 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/optimist',
+64 verbose rebuild   'optimist@0.3.7' ]
+65 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap',
+65 verbose rebuild   'wordwrap@0.0.2' ]
+66 verbose rebuild path, id [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/uglify-to-browserify',
+66 verbose rebuild   'uglify-to-browserify@1.0.1' ]
+67 silly rebuild set [ '/Users/carlwetzenstein/Sites/sosinski/node_modules/express',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/connect',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/connect/node_modules/qs',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/cookie-signature',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/buffer-crc32',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/cookie',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/send',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/debug',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/send/node_modules/mime',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/fresh',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/range-parser',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/connect/node_modules/bytes',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/connect/node_modules/pause',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/connect/node_modules/uid2',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/methods',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/connect/node_modules/raw-body',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/connect/node_modules/negotiator',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/connect/node_modules/multiparty',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/connect/node_modules/multiparty/node_modules/readable-stream',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/connect/node_modules/multiparty/node_modules/readable-stream/node_modules/core-util-is',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/connect/node_modules/multiparty/node_modules/readable-stream/node_modules/debuglog',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/connect/node_modules/multiparty/node_modules/stream-counter',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/commander',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/commander/node_modules/keypress',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/express/node_modules/mkdirp',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/commander',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/mkdirp',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/transformers',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/transformers/node_modules/promise',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/is-promise',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/transformers/node_modules/css',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-parse',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-stringify',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/transformers/node_modules/uglify-js',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/character-parser',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/monocle',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/monocle/node_modules/readdirp',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/monocle/node_modules/readdirp/node_modules/minimatch',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/monocle/node_modules/readdirp/node_modules/minimatch/node_modules/lru-cache',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/monocle/node_modules/readdirp/node_modules/minimatch/node_modules/sigmund',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/with',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/with/node_modules/uglify-js',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/async',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/source-map',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/optimist',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/uglify-to-browserify',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/constantinople',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/constantinople/node_modules/uglify-js',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/async',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/source-map',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/optimist',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap',
+67 silly rebuild set   '/Users/carlwetzenstein/Sites/sosinski/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/uglify-to-browserify' ]
+68 info build /Users/carlwetzenstein/Sites/sosinski/node_modules/express
+69 info preinstall express@3.4.3
+70 verbose linkStuff [ false,
+70 verbose linkStuff   false,
+70 verbose linkStuff   false,
+70 verbose linkStuff   '/Users/carlwetzenstein/Sites/sosinski/node_modules' ]
+71 info linkStuff express@3.4.3
+72 verbose linkBins express@3.4.3
+73 verbose link bins [ { express: './bin/express' },
+73 verbose link bins   '/Users/carlwetzenstein/Sites/sosinski/node_modules/.bin',
+73 verbose link bins   false ]
+74 verbose linkMans express@3.4.3
+75 verbose rebuildBundles express@3.4.3
+76 verbose rebuildBundles [ 'buffer-crc32',
+76 verbose rebuildBundles   'commander',
+76 verbose rebuildBundles   'connect',
+76 verbose rebuildBundles   'cookie',
+76 verbose rebuildBundles   'cookie-signature',
+76 verbose rebuildBundles   'debug',
+76 verbose rebuildBundles   'fresh',
+76 verbose rebuildBundles   'methods',
+76 verbose rebuildBundles   'mkdirp',
+76 verbose rebuildBundles   'range-parser',
+76 verbose rebuildBundles   'send' ]
+77 error Error: EACCES, unlink '/Users/carlwetzenstein/Sites/sosinski/node_modules/.bin/express'
+77 error  { [Error: EACCES, unlink '/Users/carlwetzenstein/Sites/sosinski/node_modules/.bin/express']
+77 error   errno: 3,
+77 error   code: 'EACCES',
+77 error   path: '/Users/carlwetzenstein/Sites/sosinski/node_modules/.bin/express' }
+78 error Please try running this command again as root/Administrator.
+79 error System Darwin 12.2.0
+80 error command "node" "/usr/local/bin/npm" "rebuild"
+81 error cwd /Users/carlwetzenstein/Sites/sosinski
+82 error node -v v0.10.21
+83 error npm -v 1.3.11
+84 error path /Users/carlwetzenstein/Sites/sosinski/node_modules/.bin/express
+85 error code EACCES
+86 error errno 3
+87 error stack Error: EACCES, unlink '/Users/carlwetzenstein/Sites/sosinski/node_modules/.bin/express'
+88 verbose exit [ 3, true ]
