@@ -66,17 +66,8 @@ p, h1, h2, h3, h4, h5 a{
 	-webkit-filter: grayscale(70%); 
 }
 
-.turnable-buttons{
-	display:none;
-}
-
-.none .turnable-instruction{
-	display: none!important;
-} 
-
-.ahlens .turnable-instruction{
-	width: 415px!important;
-	height: 523px!important;
+.turnable-instruction{
+	margin-left: 33px;
 }
 
 .background{
@@ -195,9 +186,9 @@ border-left-color: #3aa236;
 	}
 
 .blue-bottom{
-	width: 370px;
+	width: 400px;
 	height: 80px;
-	right: 0;
+	right: -70px;
 	bottom: -100px;
 	background: #1772b0;
 	position: absolute;
@@ -283,10 +274,10 @@ p.round{
 }
 
 #watch{
-	width: 105%;
+	width: 402px;
 	text-align: center;
 	margin: auto;
-	margin-top: -65px;
+	margin-top: -55px;
 	margin-left: 0px;
 	border-radius: 4px;
 	

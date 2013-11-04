@@ -2,11 +2,37 @@ extends layout
 
 block content
 	.index-wrapper.none
-		<img class="turnable-1" src="/public/images/studio/-01.jpg" data-turnable-options='{"frames": 16}'/>
+		<!--<img class="turnable-1" src="/public/images/studio/-01.jpg" data-turnable-options='{"frames": 16}'/>
 		script
-			$(window).load(function() {
+			$(window).bind("load", function() {
 				$("img.turnable-1").turnable();
-			});		
+			});-->
+		<img class="turnable-1" src="/public/images/studio/-01.jpg" />
+		script
+			$(window).bind("load", function() {
+				$(".turnable-1").turnable({
+					showInstruction: false,
+					showSpinButton: false,
+					images: [
+						"/public/images/studio/-01.jpg",
+						"/public/images/studio/-02.jpg",
+						"/public/images/studio/-03.jpg",
+						"/public/images/studio/-04.jpg",
+						"/public/images/studio/-05.jpg",
+						"/public/images/studio/-06.jpg",
+						"/public/images/studio/-07.jpg",
+						"/public/images/studio/-08.jpg",
+						"/public/images/studio/-09.jpg",
+						"/public/images/studio/-10.jpg",
+						"/public/images/studio/-11.jpg",
+						"/public/images/studio/-12.jpg",
+						"/public/images/studio/-13.jpg",
+						"/public/images/studio/-14.jpg",
+						"/public/images/studio/-15.jpg",
+						"/public/images/studio/-16.jpg"
+					]
+				});
+			});			
 
 		.background
 		#top-content
@@ -27,29 +53,30 @@ block content
 					<img id="ahlens" src="/public/images/ahlens/-01.jpg" />
 					script
 						$(window).bind("load", function() {
-						$("#ahlens").turnable({
-							images: [
-								"/public/images/ahlens/-01.jpg",
-								"/public/images/ahlens/-02.jpg",
-								"/public/images/ahlens/-03.jpg",
-								"/public/images/ahlens/-04.jpg",
-								"/public/images/ahlens/-05.jpg",
-								"/public/images/ahlens/-06.jpg",
-								"/public/images/ahlens/-07.jpg",
-								"/public/images/ahlens/-08.jpg",
-								"/public/images/ahlens/-09.jpg",
-								"/public/images/ahlens/-10.jpg",
-								"/public/images/ahlens/-11.jpg",
-								"/public/images/ahlens/-12.jpg",
-								"/public/images/ahlens/-13.jpg",
-								"/public/images/ahlens/-14.jpg",
-								"/public/images/ahlens/-15.jpg",
-								"/public/images/ahlens/-16.jpg",
-								"/public/images/ahlens/-17.jpg",
-								"/public/images/ahlens/-18.jpg",
-								"/public/images/ahlens/-19.jpg"
-							]
-						});	
+							$("#ahlens").turnable({
+								showSpinButton: false,
+								images: [
+									"/public/images/ahlens/-01.jpg",
+									"/public/images/ahlens/-02.jpg",
+									"/public/images/ahlens/-03.jpg",
+									"/public/images/ahlens/-04.jpg",
+									"/public/images/ahlens/-05.jpg",
+									"/public/images/ahlens/-06.jpg",
+									"/public/images/ahlens/-07.jpg",
+									"/public/images/ahlens/-08.jpg",
+									"/public/images/ahlens/-09.jpg",
+									"/public/images/ahlens/-10.jpg",
+									"/public/images/ahlens/-11.jpg",
+									"/public/images/ahlens/-12.jpg",
+									"/public/images/ahlens/-13.jpg",
+									"/public/images/ahlens/-14.jpg",
+									"/public/images/ahlens/-15.jpg",
+									"/public/images/ahlens/-16.jpg",
+									"/public/images/ahlens/-17.jpg",
+									"/public/images/ahlens/-18.jpg",
+									"/public/images/ahlens/-19.jpg"
+								]
+							});	
 						});
 	
 	.second_section
@@ -73,29 +100,30 @@ block content
 					<img id="watch" src="/public/images/watch/-01.jpg" />
 					script
 						$(window).bind("load", function() {
-						$("#watch").turnable({
-							images: [
-								"/public/images/watch/-01.jpg",
-								"/public/images/watch/-02.jpg",
-								"/public/images/watch/-03.jpg",
-								"/public/images/watch/-04.jpg",
-								"/public/images/watch/-05.jpg",
-								"/public/images/watch/-06.jpg",
-								"/public/images/watch/-07.jpg",
-								"/public/images/watch/-08.jpg",
-								"/public/images/watch/-09.jpg",
-								"/public/images/watch/-10.jpg",
-								"/public/images/watch/-11.jpg",
-								"/public/images/watch/-12.jpg",
-								"/public/images/watch/-13.jpg",
-								"/public/images/watch/-14.jpg",
-								"/public/images/watch/-15.jpg",
-								"/public/images/watch/-16.jpg",
-								"/public/images/watch/-17.jpg",
-								"/public/images/watch/-18.jpg",
-								"/public/images/watch/-19.jpg"
-							]
-						});
+							$("#watch").turnable({
+								showInstruction: false,
+								images: [
+									"/public/images/watch/-01.jpg",
+									"/public/images/watch/-02.jpg",
+									"/public/images/watch/-03.jpg",
+									"/public/images/watch/-04.jpg",
+									"/public/images/watch/-05.jpg",
+									"/public/images/watch/-06.jpg",
+									"/public/images/watch/-07.jpg",
+									"/public/images/watch/-08.jpg",
+									"/public/images/watch/-09.jpg",
+									"/public/images/watch/-10.jpg",
+									"/public/images/watch/-11.jpg",
+									"/public/images/watch/-12.jpg",
+									"/public/images/watch/-13.jpg",
+									"/public/images/watch/-14.jpg",
+									"/public/images/watch/-15.jpg",
+									"/public/images/watch/-16.jpg",
+									"/public/images/watch/-17.jpg",
+									"/public/images/watch/-18.jpg",
+									"/public/images/watch/-19.jpg"
+								]
+							});
 						});
 					<!--<img id="watch" src="/public/images/watch/-01.jpg" data-turnable-options='{"frames": 19}' />
 					script(src='/public/javascripts/turnable-1.4.1.jquery.min.js')
