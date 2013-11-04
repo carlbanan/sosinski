@@ -58,6 +58,12 @@ p, h1, h2, h3, h4, h5 a{
 	
 }
 
+.bigimage{
+	height: 700px;
+	width: 100%;
+	overflow: hidden;
+}
+
 .index-wrapper img{
 	position: absolute!important;
 	opacity: 0.2;
