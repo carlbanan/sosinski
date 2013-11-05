@@ -10,15 +10,5 @@ html
 		script(type='text/javascript', src='/public/javascripts/turnable.1.4.2.js')
 	body
 		block content
-		script
-			$(document).ready(function (){
-				console.log('start')
-					$(".btn").click(function (){
-						//$(this).animate(function(){
-							$('body').animate({
-								scrollTop: $(".first_section").offset().top
-							}, 800);
-						//});
-					});
-				}); 	
+	 	
 		
