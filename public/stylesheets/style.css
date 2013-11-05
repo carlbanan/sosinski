@@ -69,7 +69,7 @@ p, h1, h2, h3, h4, h5 a{
 	opacity: 0.2;
 	height: 700px;
 	left:-100px;
-	-webkit-filter: grayscale(70%); 
+	-webkit-filter: grayscale(100%); 
 }
 
 /*
