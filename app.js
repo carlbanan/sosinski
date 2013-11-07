@@ -18,7 +18,7 @@ app.use(express.logger());
 app.use(express.bodyParser());
 app.use(express.methodOverride());
 app.use(app.router);
-app.use("/public", express.static(__dirname + "/public"));
+app.use("/public", express.static(__dirname + "/public", {maxAge: 86400000}));
 app.use("/bower", express.static(__dirname + "/bower_components"));
 
 app.all('/', routes.index);
