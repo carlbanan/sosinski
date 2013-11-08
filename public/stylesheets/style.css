@@ -265,6 +265,9 @@ p.round{
 	height: 187px;
 	background: #00629d;
 	margin-right: 5px;	
+	background-image: url('/public/images/howareyou.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 
 .two{
@@ -272,6 +275,8 @@ p.round{
 	height: 187px;
 	background: #00629d;
 	margin-left: 5px;
+	background-image: url('/public/images/post.jpg');
+	background-repeat: no-repeat;
 }
 
 .three{
@@ -279,6 +284,8 @@ p.round{
 	height: 187px;
 	background: #00629d;
 	margin-right: 5px;
+	background-image: url('/public/images/share.jpg');
+	background-repeat: no-repeat;
 }
 
 .four{
@@ -287,6 +294,11 @@ p.round{
 	background: white;
 	margin-left: 5px;
 	overflow: hidden;
+}
+
+.four .turnable-instruction .turnable-instruction-content {
+	padding-right: 55px;
+	padding-bottom: 74px;
 }
 
 #watch{
