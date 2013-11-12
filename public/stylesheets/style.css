@@ -42,6 +42,70 @@ p, h1, h2, h3, h4, h5 a{
 		-webkit-margin-end: 10px;
 	}
 
+.like{
+	width: 153px;
+	height: 106px;
+	position: absolute;
+	background-image:url('/public/images/bubble.png');
+	background-repeat:no-repeat;
+	float: right;
+	display: block;
+	text-align: right;
+	right:0;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+
+.like h4{
+	color: white;
+	padding-top: 31px;
+	text-align: left;
+	margin-left: 15px;
+	line-height: 21px; 
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.save{
+	width: 130px;
+	height: 130px;
+	border-radius: 130px;
+	position: absolute;
+	z-index: 99999999;
+	background-color: #51c14c;
+	border-top-color: #3daa39;
+	border-right-color: #3aa236;
+	border-bottom-color: #389b34;
+	border-left-color: #3aa236;
+	float: right;
+	display: block;
+	text-align: right;
+	right:-9px;
+	margin-top: 17px;
+	transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg); /* IE 9 */
+	-webkit-transform: rotate(-10deg); /* Safari and Chrome */
+}
+
+.save h1{
+	color: white;
+	text-align: center;
+	font-size: 24px;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+}
+
+.save h4{
+	color: white;
+	text-align: center;
+	font-size: 24px;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+	-webkit-margin-before: 1.3em;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+
 .index-wrapper {
 	height: 700px;
 	top:0;
@@ -260,6 +324,16 @@ p.round{
 	color:white;
 }
 
+.f {
+	background: #1772b0!important;
+	/*
+	float: center!important;
+	text-align: center!important;
+	margin: 0 auto!important;
+	display: block!important;
+	*/
+}
+
 .one{
 	border-radius: 5px;
 	height: 187px;
@@ -294,6 +368,17 @@ p.round{
 	background: white;
 	margin-left: 5px;
 	overflow: hidden;
+}
+
+.five{
+	width: 100%;
+	padding: 20px 0 20px 15px;
+	background: #00629d;
+}
+
+.fi{
+	padding-top: 10px;
+
 }
 
 .four .turnable-instruction .turnable-instruction-content {
